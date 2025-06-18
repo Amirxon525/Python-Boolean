@@ -69,7 +69,7 @@
 
 **Masala**: Login foydalanuvchi nomiga tengmi?
 
-**Input**: `input_username` (string), `expected_username` (string)
+**Input**: `input_username` (string), ` (string)
 **Output**: `True` yoki `False`
 
 ---
