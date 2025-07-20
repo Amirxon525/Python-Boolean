@@ -1,6 +1,2 @@
-email = input("Enter email : ")
-
-
-result = "@" in email
-
-print(result)
+email = input("Email kirting: ")
+print('@' in email) 

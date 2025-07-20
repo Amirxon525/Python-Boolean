@@ -1,3 +1,6 @@
-letter = input("enter one letter: ")
-result = "A" <= letter <= "Z"
-print(result)
+letter = input()  
+
+if 'A' <= letter <= 'Z': 
+    print(True)
+else:
+    print(False)

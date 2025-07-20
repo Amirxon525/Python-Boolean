@@ -1,5 +1,5 @@
-secret = "001" 
-entered = input("Maxviy sozni kiriting:  ")
+secret = input("Maxviy so'zni kiriting: ")
+secret_key = "simsim ochil"
 
-result = secret == entered
+result = secret == secret_key
 print(result)

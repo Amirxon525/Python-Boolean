@@ -1,7 +1,4 @@
-correct_login = "id12344"
+input_username = input()
+real_username = input()
 
-login = input("login kirinting : ")
-
-result = login == correct_login
-
-print(result)
+print(input_username == real_username)

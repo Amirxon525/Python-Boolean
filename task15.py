@@ -1,7 +1,7 @@
-password = input("password: ")
+password = input("Parolni kiriting: ")
+confirm = input("Parolni tasdiqlang: ")
 
-confirm = input("Confirim Password: ")
-
-result = password == confirm
-
-print(result)
+if password == confirm:
+    print(True)
+else:
+    print(False)

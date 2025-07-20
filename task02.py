@@ -1,4 +1,4 @@
-phone_number = input("Tel raqam")
+number = input("Tel raqam kiriting: ")
 
-result = len(phone_number) == 9
+result = len(number) == 9
 print(result)

@@ -1,4 +1,2 @@
-username = input("Enter Username")
-
-result = len(username) > 0
-print(result)
+username = input("Username:  ")
+print(username  !=  "")

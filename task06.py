@@ -1,5 +1,4 @@
-user_age = input("age: ")
+yosh = int((input("yoshizni kirting: ")))
 
-result = len(user_age) > 13 or 'age' == 13
-
+result = yosh >= 13
 print(result)

@@ -1,5 +1,3 @@
-price = float(input("enter price :  "))
-
-result = price < 100_000
-
+narx = float(input("mahsulot narxini kirgizing: "))
+result = narx <= 100.000
 print(result)

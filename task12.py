@@ -1,4 +1,4 @@
-stock = 0
-result = stock == 0
+mahsulot = int(input("Mahsulot ni kirting: "))
+stock = mahsulot > 0
 
-print(result)
+print(stock)

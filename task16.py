@@ -1,6 +1,7 @@
-login_1 = input("Enter login: ")
+login = input("Loginni kiriting: ")
+password = input("Parolni kiriting: ")
 
-password_1 = int(input("Enter password: "))
-
-result = login_1 != "" and password_1 != ""
-print(result)
+if login != " " and password != " ":
+    print(True)
+else:
+    print(False)

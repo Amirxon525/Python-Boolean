@@ -1,5 +1,6 @@
-chegirma = int(input("narx kiriting:  "))
+price = float(input("Narxni kiriting: "))
 
-result = chegirma >= 500000
-
-print(result)
+if price > 500000:
+    print(True)
+else:
+    print(False)
